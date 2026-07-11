@@ -32,7 +32,7 @@ SYMS = { '{', '}', '(', ')', '[', ']', ',', '\\', '@' }
 KEYS = {
     'await', 'catch', 'defer', 'do', 'else', 'emit', 'false', 'func', 'if',
     'ifs', 'in', 'loop', 'match', 'nil', 'on', 'par', 'pin', 'set', 'spawn',
-    'task', 'tasks', 'test', 'thread', 'toggle', 'true', 'until', 'val', 'var',
+    'task', 'tasks', 'test', 'toggle', 'true', 'until', 'val', 'var',
     'watching', 'where', 'with', 'while',
     -- 'abort', 'break', 'escape', 'it', 'pub', 'return', 'skip',
     -- 'throw', 'xtask'

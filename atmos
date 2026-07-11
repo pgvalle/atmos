@@ -1,4 +1,4 @@
-#!/usr/bin/env lua5.4
+#!/usr/bin/env lua5.5
 
 local VERSION = "v0.7"
 
@@ -28,7 +28,5 @@ cmd:flag("-t --test", "Enable test blocks.")
 cmd = cmd:parse()
 
 atmos.test = cmd.test
-atmos.thread_modules[#atmos.thread_modules+1] = "atmos"
-atmos.thread_modules[#atmos.thread_modules+1] = "atmos.lang.run"
 
 atmos.loop(assert(atm_loadfile(cmd.input)), table.unpack(cmd.args))

@@ -17,7 +17,7 @@ do
     ]]
     print("Testing...", "expr 1")
     local out = atm_test(src)
-    assertx(out, "2.3333333333333\n")
+    assertfx(out, "2%.3333333333333")
 
     local src = [[
         print(" b ")
